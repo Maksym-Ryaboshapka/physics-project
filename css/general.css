@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+
+    font-family: 'Rubik';
+    font-weight: 400;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding-top: 70px;
+}
+
+.container {
+    width: 1230px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    /* outline: solid red; */
+}
+
+/* header,
+section,
+footer {
+    outline: solid green;
+} */
