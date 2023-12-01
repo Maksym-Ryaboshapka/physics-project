@@ -1,187 +1,213 @@
 <!DOCTYPE html>
 <html lang="uk">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Проєкт з фізики</title>
-    <link type="image/x-icon" href="./images/favicon.ico" rel="icon">
+    <link type="image/x-icon" href="./images/favicon.ico" rel="icon" />
     <!-- fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Rubik:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
     <!-- normalize.css, reset.css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/reset.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
     <!-- css -->
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/general.css">
-</head>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/general.css" />
+  </head>
 
-<body>
+  <body>
     <!-- header -->
     <header class="header">
-        <div class="container header-container">
-            <a href="./index.html" class="header-logo">
-                <svg class="header-icon">
-                    <use href="./images/icons/icons.svg#icon-logo"></use>
-                </svg>
-                <span class="header-span">Фізика</span>
-            </a>
-            <ul class="header-list">
-                <li class="header-item">
-                    <a href="#what" class="header-link">Що таке одиниці вимірювання</a>
-                </li>
-                <li class="header-item">
-                    <a href="#si" class="header-link">Що таке SI</a>
-                </li>
-                <li class="header-item">
-                    <a href="#types" class="header-link">Які є одиниці вимірювання</a>
-                </li>
-            </ul>
-        </div>
+      <div class="container header-container">
+        <a href="./index.html" class="header-logo">
+          <svg class="header-icon">
+            <use href="./images/icons/icons.svg#icon-logo"></use>
+          </svg>
+          <span class="header-span">Фізика</span>
+        </a>
+        <ul class="header-list">
+          <li class="header-item">
+            <a href="#what" class="header-link">Що таке одиниці вимірювання</a>
+          </li>
+          <li class="header-item">
+            <a href="#si" class="header-link">Що таке SI</a>
+          </li>
+          <li class="header-item">
+            <a href="#types" class="header-link">Які є одиниці вимірювання</a>
+          </li>
+        </ul>
+      </div>
     </header>
     <main>
-        <!-- title -->
-        <section class="hero">
-            <div class="container">
-                <h1 class="hero-title">Навчальний проєкт</h1>
-                <h2 class="hero-subtitle">Одиниці виміру фізичних величин</h2>
-                <h3 class="hero-author">&#169; <span>Максима Рябошапка</span></h3>
-            </div>
-        </section>
-        <!-- hero -->
-        <section class="what" id="what">
-            <div class="container">
-                <h2 class="what-title">Що таке одиниці вимірювання</h2>
-                <img src="./images/wiki.webp" alt="wikipedia" class="what-img">
-                <div class="what-box">
-                    <p class="what-text">Одиниця вимірювання — дійсна
-                        скалярна величина, визначена та прийнята умовно, з якою можна порівняти будь-яку іншу величину
-                        того
-                        самого роду, щоб виразити відношення двох величин у вигляді числа. Значення цієї величини
-                        приймають
-                        рівним одиниці.</p>
-                </div>
-            </div>
-        </section>
-        <!-- ci -->
-        <section class="si" id="si">
-            <div class="container">
-                <h2 class="si-title">Система СІ</h2>
-                <img src="./images/wiki.webp" alt="wikipedia" class="si-img">
-                <div class="si-box">
-                    <p class="si-text">Міжнародна система одиниць (SI) — система
-                        одиниць фізичних величин, сучасний варіант метричної системи. Система одиниць SI
-                        використовується
-                        найчастіше як у повсякденному житті, так і в науці та техніці.</p>
-                </div>
-            </div>
-        </section>
-        <!-- types -->
-        <section class="types" id="types">
-            <div class="container">
-                <h2 class="types-title">Які є одиниці вимірювання</h2>
-                <ul class="types-list">
-                    <li class="types-item">
-                        <img src="./images/ruler.webp" alt="ruler" class="types-img">
-                        <h3 class="types-subtitle">Довжинина</h3>
-                        <p class="types-text">
-                            <span class="types-span">
-                                Довжина може вимірюватись у таких одиницях, як: метри (м), кілометри (км),
-                                сантиметри (см), міліметри (мм) та інші. Її позначають маленькою латинською літрою
-                            </span>
-                            <span class="types-letter">"l"</span>
-                            <span class="types-span"> . У системі сі прийнятго вимірювати довжину у метрах.</span>
-                        </p>
-                    </li>
-                    <li class="types-item">
-                        <img src="./images/auto.webp" alt="auto" class="types-img">
-                        <h3 class="types-subtitle">Швидкість</h3>
-                        <p class="types-text">
-                            <span class="types-span">
-                                Швидкість вимірююсть у різних одиницях, наприклад: кілометри на
-                                годину (км/год), метри на секунду (м/с), кілометри на хвилину (км/хв), сантиметри на
-                                секунду (см/с) й багато інших. Її позначають маленькою латинською літрою
-                            </span>
-                            <span class="types-letter">"v"</span>
-                            <span class="types-span">. У системі сі прийнятго вимірювати швидкість у метрах за
-                                секунду.</span>
-                        </p>
-                    </li>
-                    <li class="types-item">
-                        <img src="./images/hourglass.webp" alt="hourglass" class="types-img">
-                        <h3 class="types-subtitle">Час</h3>
-                        <p class="types-text">
-                            <span class="types-span">
-                                Час можна вимірювати у таких одиницях, як: секунда (с), годна (год),
-                                хвилина (хв), доба (д) та інші. Його позначають маленькою латинською літрою
-                            </span>
-                            <span class="types-letter">"t"</span>
-                            <span class="types-span">. У системі сі прийнятго вимірювати час у секундах.</span>
-                        </p>
-                    </li>
-                    <li class="types-item">
-                        <img src="./images/cube.webp" alt="cube" class="types-img">
-                        <h3 class="types-subtitle">Об'єм</h3>
-                        <p class="types-text">
-                            <span class="types-span">
-                                Об'єм вимірююсть у різних одиницях, наприклад: літр (л), кубічний
-                                метр (м³), мілілітр (мл), кібічний сантиметр (см³) й багато інших. Його позначають
-                                великою
-                                латинською літрою
-                            </span>
-                            <span class="types-letter">"V"</span>
-                            <span class="types-span">. У системі сі прийнятго вимірювати об'єм у кубічних
-                                метрах.</span>
-                        </p>
-                    </li>
-                    <li class="types-item">
-                        <img src="./images/weight.webp" alt="weight" class="types-img">
-                        <h3 class="types-subtitle">Маса</h3>
-                        <p class="types-text">
-                            <span class="types-span">
-                                Масу можна вимірювати у таких одиницях, як: грам (г), кілограм (кг),
-                                центнер (ц), тонна (т) та інші.Її позначають маленькою латинською літрою
-                            </span>
-                            <span class="types-letter">"m"</span>
-                            <span class="types-span">. У системі сі прийнятго вимірювати масу у кілограмах.</span>
-                        </p>
-                    </li>
-                    <li class="types-item">
-                        <img src="./images/circle.webp" alt="circle" class="types-img">
-                        <h3 class="types-subtitle">Обертова частота</h3>
-                        <p class="types-text">
-                            <span class="types-span">
-                                Обертову частоту вімирюють у одно секундних (обертах за секунду) (1/с). Її
-                                позначають маленькою латинською літрою
-                            </span>
-                            <span class="types-letter">"n"</span>
-                            <span class="types-span">. У системі сі прийнятго вимірювати обертову частоту у обертах
-                                за
-                                секунду.</span>
-                        </p>
-                    </li>
-                    <li class="types-item">
-                        <img src="./images/swing.webp" alt="swing" class="types-img">
-                        <h3 class="types-subtitle">Частота коливань</h3>
-                        <p class="types-text">
-                            <sapn class="types-span">
-                                Коливальну частоту вимірюють у герцах (Гц). Її позначають маленькою
-                                грецькою літрою
-                            </sapn>
-                            <span class="types-letter">"ν"</span>
-                            <span class="types-span">. У системі сі прийнятго вимірювати частоту коливань у
-                                герцах.</span>
-                        </p>
-                    </li>
-                </ul>
-            </div>
-        </section>
+      <!-- title -->
+      <section class="hero">
+        <div class="container">
+          <h1 class="hero-title">Навчальний проєкт</h1>
+          <h2 class="hero-subtitle">Одиниці виміру фізичних величин</h2>
+          <h3 class="hero-author">&#169; <span>Максима Рябошапка</span></h3>
+        </div>
+      </section>
+      <!-- hero -->
+      <section class="what" id="what">
+        <div class="container">
+          <h2 class="what-title">Що таке одиниці вимірювання</h2>
+          <img src="./images/wiki.webp" alt="wikipedia" class="what-img" />
+          <div class="what-box">
+            <p class="what-text">
+              Одиниця вимірювання — дійсна скалярна величина, визначена та
+              прийнята умовно, з якою можна порівняти будь-яку іншу величину
+              того самого роду, щоб виразити відношення двох величин у вигляді
+              числа. Значення цієї величини приймають рівним одиниці.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- ci -->
+      <section class="si" id="si">
+        <div class="container">
+          <h2 class="si-title">Система СІ</h2>
+          <img src="./images/wiki.webp" alt="wikipedia" class="si-img" />
+          <div class="si-box">
+            <p class="si-text">
+              Міжнародна система одиниць (SI) — система одиниць фізичних
+              величин, сучасний варіант метричної системи. Система одиниць SI
+              використовується найчастіше як у повсякденному житті, так і в
+              науці та техніці.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- types -->
+      <section class="types" id="types">
+        <div class="container">
+          <h2 class="types-title">Які є одиниці вимірювання</h2>
+          <ul class="types-list">
+            <li class="types-item">
+              <img src="./images/ruler.webp" alt="ruler" class="types-img" />
+              <h3 class="types-subtitle">Довжинина</h3>
+              <p class="types-text">
+                <span class="types-span">
+                  Довжина може вимірюватись у таких одиницях, як: метри (м),
+                  кілометри (км), сантиметри (см), міліметри (мм) та інші. Її
+                  позначають маленькою латинською літрою
+                </span>
+                <span class="types-letter">"l"</span>
+                <span class="types-span">
+                  . У системі сі прийнятго вимірювати довжину у метрах.</span
+                >
+              </p>
+            </li>
+            <li class="types-item">
+              <img src="./images/auto.webp" alt="auto" class="types-img" />
+              <h3 class="types-subtitle">Швидкість</h3>
+              <p class="types-text">
+                <span class="types-span">
+                  Швидкість вимірююсть у різних одиницях, наприклад: кілометри
+                  на годину (км/год), метри на секунду (м/с), кілометри на
+                  хвилину (км/хв), сантиметри на секунду (см/с) й багато інших.
+                  Її позначають маленькою латинською літрою
+                </span>
+                <span class="types-letter">"v"</span>
+                <span class="types-span"
+                  >. У системі сі прийнятго вимірювати швидкість у метрах за
+                  секунду.</span
+                >
+              </p>
+            </li>
+            <li class="types-item">
+              <img
+                src="./images/hourglass.webp"
+                alt="hourglass"
+                class="types-img"
+              />
+              <h3 class="types-subtitle">Час</h3>
+              <p class="types-text">
+                <span class="types-span">
+                  Час можна вимірювати у таких одиницях, як: секунда (с), годна
+                  (год), хвилина (хв), доба (д) та інші. Його позначають
+                  маленькою латинською літрою
+                </span>
+                <span class="types-letter">"t"</span>
+                <span class="types-span"
+                  >. У системі сі прийнятго вимірювати час у секундах.</span
+                >
+              </p>
+            </li>
+            <li class="types-item">
+              <img src="./images/cube.webp" alt="cube" class="types-img" />
+              <h3 class="types-subtitle">Об'єм</h3>
+              <p class="types-text">
+                <span class="types-span">
+                  Об'єм вимірююсть у різних одиницях, наприклад: літр (л),
+                  кубічний метр (м³), мілілітр (мл), кібічний сантиметр (см³) й
+                  багато інших. Його позначають великою латинською літрою
+                </span>
+                <span class="types-letter">"V"</span>
+                <span class="types-span"
+                  >. У системі сі прийнятго вимірювати об'єм у кубічних
+                  метрах.</span
+                >
+              </p>
+            </li>
+            <li class="types-item">
+              <img src="./images/weight.webp" alt="weight" class="types-img" />
+              <h3 class="types-subtitle">Маса</h3>
+              <p class="types-text">
+                <span class="types-span">
+                  Масу можна вимірювати у таких одиницях, як: грам (г), кілограм
+                  (кг), центнер (ц), тонна (т) та інші.Її позначають маленькою
+                  латинською літрою
+                </span>
+                <span class="types-letter">"m"</span>
+                <span class="types-span"
+                  >. У системі сі прийнятго вимірювати масу у кілограмах.</span
+                >
+              </p>
+            </li>
+            <li class="types-item">
+              <img src="./images/circle.webp" alt="circle" class="types-img" />
+              <h3 class="types-subtitle">Обертова частота</h3>
+              <p class="types-text">
+                <span class="types-span">
+                  Обертову частоту вімирюють у одно секундних (обертах за
+                  секунду) (1/с). Її позначають маленькою латинською літрою
+                </span>
+                <span class="types-letter">"n"</span>
+                <span class="types-span"
+                  >. У системі сі прийнятго вимірювати обертову частоту у
+                  обертах за секунду.</span
+                >
+              </p>
+            </li>
+            <li class="types-item">
+              <img src="./images/swing.webp" alt="swing" class="types-img" />
+              <h3 class="types-subtitle">Частота коливань</h3>
+              <p class="types-text">
+                <sapn class="types-span">
+                  Коливальну частоту вимірюють у герцах (Гц). Її позначають
+                  маленькою грецькою літрою
+                </sapn>
+                <span class="types-letter">"ν"</span>
+                <span class="types-span"
+                  >. У системі сі прийнятго вимірювати частоту коливань у
+                  герцах.</span
+                >
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
-</body>
-
+  </body>
 </html>
